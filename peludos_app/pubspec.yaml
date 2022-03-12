@@ -1,0 +1,101 @@
+name: pet_care
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  
+  # main 
+  get: ^4.3.8 
+  get_storage: ^2.0.3
+  curved_navigation_bar: ^1.0.0
+  flutter_easyloading: ^3.0.3
+  
+  path_drawing: ^1.0.0
+  meta: ^1.7.0
+  vector_math: ^2.1.0
+  xml: ^5.3.1
+
+  # to support svg icons
+  flutter_svg: ^1.0.3
+
+  # format datetime
+  intl: ^0.17.0 
+
+  # support json animations 
+  lottie: ^1.2.2
+
+  #to support api calls
+  http: ^0.13.4
+
+
+  # flutter_datetime_picker: ^1.5.1
+  flutter_staggered_grid_view: ^0.6.0
+  cool_dropdown: ^1.4.1
+
+
+  # splash screen
+  animated_widgets: ^1.1.0
+  
+  # swiper to adoption page
+  card_swiper: ^2.0.1
+
+  # calendar select to make appoitnments
+  calendar_timeline: ^1.0.4
+
+  # ======== check this packages
+  # awesome_notifications: ^0.6.21
+  # im_stepper: ^0.1.3
+    # shimmer_animation: ^1.0.0
+  # material_floating_search_bar: ^0.3.6
+  # smooth_page_indicator: ^1.0.0+2
+  # flip_card: ^0.6.0
+  # vertical_card_pager: ^1.5.0
+  # slimy_card: ^1.0.4
+  # pull_to_refresh: ^2.0.0
+  # infinite_scroll_pagination 3.1.0 icon indicating copy to clipboard operation
+
+  # get notifications
+  # flutter_background_service: ^0.2.5
+  # flutter_local_notifications: ^6.0.0
+  # workmanager: ^0.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon_app.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/json/
+    - assets/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Bold.ttf
+        - asset: assets/fonts/Nunito-ExtraLight.ttf
+          # weight: 100
+        - asset: assets/fonts/Nunito-Regular.ttf
+          # weight: 500
+
